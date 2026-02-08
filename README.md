@@ -9,9 +9,23 @@ This project brings the Gemini web experience to the desktop, offering a dedicat
 ## Features
 
 -   **Native Experience**: Runs as a standalone macOS or Windows application.
+-   **Global Shortcut**: Access Gemini instantly from anywhere with `Cmd+G` (macOS) or `Ctrl+G` (Windows).
+-   **Customizable**: Change the global shortcut to your preference in Settings.
 -   **Lightweight**: Built on Tauri, using the system's native webview for minimal resource usage.
 -   **Secure**: Sandboxed environment with restricted permissions.
 -   **Always on Top**: Maintain focus on your AI assistant (configurable).
+
+## Usage
+
+### Global Shortcut
+The app runs in the background. Press **`Cmd+G`** (macOS) or **`Ctrl+G`** (Windows) to bring Gemini to the front instantly.
+
+### Customization
+You can change the global shortcut in the app settings:
+1.  Open the application menu (**Gemini** -> **Settings...**).
+2.  Click on the shortcut input field.
+3.  Press your desired key combination.
+4.  Click **Save**.
 
 ## Installation
 

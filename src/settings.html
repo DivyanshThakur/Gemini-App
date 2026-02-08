@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Settings</title>
+    <link rel="stylesheet" href="settings.css">
+    <script type="module" src="settings.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Settings</h1>
+        <div class="setting-item">
+            <label for="shortcut-display">Global Shortcut</label>
+            <div class="shortcut-input-container">
+                <input type="text" id="shortcut-display" placeholder="Click to record..." readonly>
+                <button id="save-btn" disabled>Save</button>
+            </div>
+            <p class="hint">Click inside the box and press keys to record a new shortcut.</p>
+        </div>
+    </div>
+</body>
+</html>
